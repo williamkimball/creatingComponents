@@ -1,6 +1,6 @@
 const fragment = document.createDocumentFragment();
 
-const createSection = (message) => {
+const createSection = message => {
     let sec = document.createElement("section");
     sec.className = "message";
     sec.textContent = `${message}`
